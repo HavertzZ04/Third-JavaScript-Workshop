@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop 3</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous" defer></script>
+
+
+</head>
+<body class="bground">
+    <div class="main">
+        <h1>Campusland</h1>
+        <h1 id="title"></h1>
+
+        <div class="mb-3">
+            <label for="city" class="form-label">City:</label>
+            <select name="city" id="city" class="form-select">
+                <option value="">Select the Facility City</option>
+                <option value="camper">Bucaramanga</option>
+                <option value="trainer">Medellin</option>
+                <option value="camper">Bogota</option>
+                <option value="trainer">Mexico</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label for="options" class="form-label">Profile</label>
+            <select name="options" id="options" class="form-select">
+                <option value="">Select Your Profile</option>
+                <option value="camper">Camper</option>
+                <option value="trainer">Trainer</option>
+            </select>
+        </div>
+
+
+        <form id="camper">
+            <div class="mb-3">
+                <label for="names" class="form-label">Name:</label>
+                <input type="text" name="names" class="form-control">
+            </div>
+            
+            <div class="mb-3">
+                <label for="phone" class="form-label">Phone:</label>
+                <input type="number" name="phone" class="form-control">
+            </div>
+
+            <div class="mb-">
+                <label for="team" class="form-label">Select Your Team:</label>
+                <select name="team" id="team" class="form-control">
+                    <option value="1">Team 1</option>
+                    <option value="2">Team 2</option>
+                    <option value="3">Team 3</option>
+                    <option value="4">Team 4</option>
+                </select>
+            </div>
+            <br>
+            <div class="mb-3">
+                <label for="emails" class="form-label">Email:</label>
+                <input type="text" name="emails" class="form-control">
+            </div>
+
+            <div class="mb-3">
+                <label for="levels" class="form-label">Level:</label>
+                <select name="levels" id="levels" class="form-select">
+                    <option value="">Select your level:</option>
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label for="neighborhood" class="form-label">Neighborhood:</label>
+                <input type="text" name="neighborhood"class="form-control">
+            </div>
+
+            <div class="mb-3">
+                <label for="transport" class="form-label">Transportation:</label>
+                <select name="transport" id="transport" class="form-select">
+                    <option value="">Transportation Method</option>
+                    <option value="car">Car</option>
+                    <option value="motorcycle">Motorcycle</option>
+                    <option value="bicycle">Bicycle</option>
+                    <option value="public">Public Transport</option>
+                    <option value="walk">Walking</option>
+                </select>
+            </div>
+        </form>
+
+        <form id="trainer">
+            <p>Soy trainer</p>
+        </form>
+    </div>
+
+</body>
+</html>
