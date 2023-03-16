@@ -74,4 +74,11 @@ h1 {
   }
 }
 
+#camper {
+  display: none;
+}
+
+#trainer {
+  display: none;
+}
 
