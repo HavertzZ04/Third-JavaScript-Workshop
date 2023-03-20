@@ -26,8 +26,9 @@ const datos = new FormData(event.target);
 const datosCompletos = Object.fromEntries(datos.entries());
 let jsonResult = JSON.stringify(datosCompletos);
 console.log(jsonResult);
+/*
 let jsonSplit = jsonResult.split(",")
-console.log(jsonSplit[1]);
+console.log(jsonSplit[1]);*/
 }
 main.addEventListener('submit', procesaTodo);
 

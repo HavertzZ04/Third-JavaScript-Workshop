@@ -56,10 +56,9 @@ h1 {
 }
 
 .bot button:hover {
-  background-color: rgb(0, 255, 4);
+  background-color: rgb(255, 187, 0);
   border: solid 2px rgb(0, 0, 0);
   animation: up 0.45s ease-in-out;
-  
 }
 
 
